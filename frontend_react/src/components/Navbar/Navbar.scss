@@ -57,7 +57,8 @@
 
       transition: all 0.3s ease-in-out;
 
-      &:hover {
+      &:hover,
+      &:active {
         color: var(--secondary-color);
       }
     }
@@ -147,7 +148,8 @@
 
           transition: all 0.3s ease-in-out;
 
-          &:hover {
+          &:hover,
+          &:active {
             color: var(--secondary-color);
           }
         }

@@ -16,12 +16,14 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links ">
-        {["Home", "About", "Works", "Skills", "Contact"].map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
-            <div />
-            <a href={`#${item}`}>{item}</a>
-          </li>
-        ))}
+        {["home", "about", "works", "skills", "testimonial", "contact"].map(
+          (item) => (
+            <li className="app__flex p-text" key={`link-${item}`}>
+              <div />
+              <a href={`#${item}`}>{item}</a>
+            </li>
+          )
+        )}
       </ul>
 
       {/* only for small devices (below 900px width), for large devices it is set t display none */}
@@ -45,7 +47,14 @@ const Navbar = () => {
             />
 
             <ul>
-              {["Home", "About", "Works", "Skills", "Contact"].map((item) => (
+              {[
+                "home",
+                "about",
+                "works",
+                "skills",
+                "testimonial",
+                "contact",
+              ].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item}`}
