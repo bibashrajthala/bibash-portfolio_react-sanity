@@ -27,6 +27,9 @@ import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 
+import myLogo from "../assets/myLogo.png";
+import myProfile from "../assets/myProfile.png";
+
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
 import asus from "../assets/asus.png";
@@ -62,6 +65,8 @@ export default {
   profile,
   circle,
   logo,
+  myLogo,
+  myProfile,
   adidas,
   amazon,
   asus,
