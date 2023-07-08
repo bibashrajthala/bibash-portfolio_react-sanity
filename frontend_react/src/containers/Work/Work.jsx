@@ -87,7 +87,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer">
+{/*                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -96,7 +96,7 @@ const Work = () => {
                   >
                     <AiFillGithub />
                   </motion.div>
-                </a>
+                </a> */}
               </motion.div>
             </div>
 
