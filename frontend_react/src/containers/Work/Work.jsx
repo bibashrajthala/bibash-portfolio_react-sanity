@@ -14,7 +14,7 @@ const Work = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   useEffect(() => {
-    const query = '*[_type == "works"]';
+    const query = '*[_type == "works"] | order(_updatedAt desc)';
     client.fetch(query).then((data) => {
       setWorks(data);
       setFilterWorks(data);
